@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quit Scrolling</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 0px;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+            color: white;
+        }
+        .popup {
+            background-color: white;
+            color: #333;
+            padding: 20px; /* Adjusted padding */
+            border-radius: 15px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+            text-align: center;
+            width: 600px; /* Fixed width */
+            height: 300px; /* Fixed height */
+            box-sizing: border-box;
+            overflow: auto; /* Handle overflow content */
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 15px;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.4;
+            margin: 10px 0 20px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #e25e55;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #ac4545;
+        }
+    </style>
+</head>
+<body>
+    <div class="popup">
+        <h1>Quit Scrolling</h1>
+        <p>Stop the mindless scrolling, take a moment and refresh yourself!</p>
+        <p>Remember, the popup won't close until you press the 'go back' arrow in the browser!</p>
+        <button id="close-popup">Got it!</button>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>
+
+

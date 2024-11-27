@@ -1,0 +1,22 @@
+{
+    "manifest_version" : 3,
+    "name" : "Quit Scrolling",
+    "version" : "1.1",
+    "description" : "Detect if the user is scrolling Youtube Shorts and alert the user",
+    "permissions" : ["activeTab"],
+    "host_permissions" : ["https://www.youtube.com/*"],
+    "content_scripts" : [
+        {
+            "matches" : ["https://www.youtube.com/*"],
+            "js" : ["content.js"]
+        }
+    ],
+    "action" : {
+        "default_popup" : "popup.html",
+        "default_icon" : {
+            "16" : "icon-16.png",
+            "48": "icon-48.png",
+            "128": "icon-128.png"
+        }
+    }
+}
