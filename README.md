@@ -12,7 +12,7 @@ Sometimes people tend to open youtube with a purpose of learning something or lo
 Installing the extension can help users to focus on their work rather than scrolling mindlessly. 
 
 ## Icons
-[The icon was taken from:] (https://www.flaticon.com)
+The icon was taken from: https://www.flaticon.com
 
 ## License
 This Project is licensed under the MIT License.
