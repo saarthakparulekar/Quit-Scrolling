@@ -7,6 +7,10 @@
 - Locate the folder in your local machine where you downloaded the file and upload it to your browser
 - Turn on the extension and you are good to go!
 
+## Instructions
+- Once the popup is shown, the 'Close' button can only be clicked by going back from the youtube shorts page.
+- You can change the message with any other motivational message by messing around in the 'content.js' file.
+
 ## Purpose 
 Sometimes people tend to open youtube with a purpose of learning something or looking for information on a particular concept, but youtube shorts can be distracting and the user can end up in a loop of scrolling shorts continously. 
 Installing the extension can help users to focus on their work rather than scrolling mindlessly. 
