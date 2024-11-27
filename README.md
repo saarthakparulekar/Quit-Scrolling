@@ -10,3 +10,9 @@
 ## Purpose 
 Sometimes people tend to open youtube with a purpose of learning something or looking for information on a particular concept, but youtube shorts can be distracting and the user can end up in a loop of scrolling shorts continously. 
 Installing the extension can help users to focus on their work rather than scrolling mindlessly. 
+
+## Icons
+[The icon was taken from:] (https://www.flaticon.com)
+
+## License
+This Project is licensed under the MIT License.
